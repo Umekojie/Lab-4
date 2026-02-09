@@ -12,3 +12,5 @@ deck = []
 for value in values:
     for suit in suits:
         deck.append(value + suit)
+random.shuffle(deck)
+print (deck[:hand_size])
